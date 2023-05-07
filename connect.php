@@ -1,6 +1,6 @@
 <?php
 
-$url = 'https://api.upland.me/v1/collections/city/properties';
+$url = 'https://api.sandbox.upland.me/developers-api';
 $params = array('limit' => 10, 'offset' => 0);
 
 $access_token = 'YOUR_ACCESS_TOKEN';
