@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate UPX payment using Upland API
     $access_token = 'YOUR_ACCESS_TOKEN';
     $headers = array('Authorization: Bearer ' . $access_token);
-    $url = 'https://api.upland.me/v1/upx/checkbalance';
+    $url = 'https://api.sandbox.upland.me/developers-api';
     $response = file_get_contents($url, false, stream_context_create(array(
         'http' => array(
             'method' => 'GET',
