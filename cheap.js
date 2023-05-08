@@ -1,3 +1,9 @@
+/*
+This script uses the discord.js library to connect to Discord and listens for the !upland-cheapest command. When the command is received, the script sends a GraphQL query to the Upland API to retrieve the 10 cheapest properties for sale, sorted by price in ascending order. The script then formats the results into a message and sends it back to the Discord channel.
+
+To use this script, you will need to replace 'your-discord-bot-token' with your own Discord bot token. You will also need to install the discord.js and node-fetch libraries by running npm install discord.js node-fetch in your terminal.
+*/
+
 const Discord = require('discord.js');
 const fetch = require('node-fetch');
 
